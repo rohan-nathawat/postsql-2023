@@ -3,7 +3,8 @@
 ### Tables include:
 Customers, Orders, Menu, Stock Shipments, Workers, and Delivery Drivers
 ## ERD
-<img src="https://user-images.githubusercontent.com/65173830/216798322-a2d6b3a7-2287-49b8-b29e-279a5aa25530.png" width=100% height=100%>
+
+![restaurantERDimage2](https://user-images.githubusercontent.com/65173830/216831060-9c2acaae-3be7-482e-a61d-8cad3a59a09e.png)
 
 ## Customers
 
