@@ -58,7 +58,7 @@ Delivery Driver, keeps track of who is delivering which customer's order and the
 
 ## ERD
 
-![Restaurant ERD](https://user-images.githubusercontent.com/65173830/219959087-c192e341-f9e3-4fb7-b078-982794cdf9ca.jpeg)
+![Restaurant ERD](https://user-images.githubusercontent.com/65173830/219963774-0d141d2b-9ea8-4910-8505-02e856870974.png)
 
 ![restaurantERDimage2](https://user-images.githubusercontent.com/65173830/216831060-9c2acaae-3be7-482e-a61d-8cad3a59a09e.png)
 
