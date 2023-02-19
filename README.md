@@ -1,6 +1,6 @@
-# Resturant Database
+# Restaurant Database
 ## Paragraph
-**This is my database that includes all of the information a resturant needs to run; it includes the following six tables. Customer, tracks data about the customer that could be used for memberships and reward programs. Order, tracks what and how much the customers have ordered. Menu, displays what food and beverages are in stock. Stock Shipment, gives information about providers and what items are needed. Worker, information abou the different positions, who is working, and salary.
+**This is my database that includes all of the information a restaurant needs to run; it includes the following six tables. Customer, tracks data about the customer that could be used for memberships and reward programs. Order, tracks what and how much the customers have ordered. Menu, displays what food and beverages are in stock. Stock Shipment, gives information about providers and what items are needed. Worker, information abou the different positions, who is working, and salary.
 Delivery Driver, keeps track of who is delivering which customer's order and the drivers VIN number.**
 ### Made using PostgreSQL 15 and PgAdmin 4
 
