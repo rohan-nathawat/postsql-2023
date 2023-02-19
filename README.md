@@ -1,8 +1,14 @@
 # Resturant Database
-## This is my database that tracks important information the resturant needs to run.
-### Tables include:
-Customers, Orders, Menu, Stock Shipments, Workers, and Delivery Drivers
+## Paragraph
+**This is my database that includes all of the information a resturant needs to run; it includes the following six tables. Customer, tracks data about the customer that could be used for memberships and reward programs. Order, tracks what and how much the customers have ordered. Menu, displays what food and beverages are in stock. Stock Shipment, gives information about providers and what items are needed. Worker, information abou the different positions, who is working, and salary.
+Delivery Driver, keeps track of who is delivering which customer's order and the drivers VIN number.**
+### Made using PostgreSQL 15 and PgAdmin 4
+
+### Tables include: customer, delivery_driver, food_menu, food_order, stock_shipments, and worker.
+
 ## ERD
+
+![Restaurant ERD](https://user-images.githubusercontent.com/65173830/219959087-c192e341-f9e3-4fb7-b078-982794cdf9ca.jpeg)
 
 ![restaurantERDimage2](https://user-images.githubusercontent.com/65173830/216831060-9c2acaae-3be7-482e-a61d-8cad3a59a09e.png)
 
