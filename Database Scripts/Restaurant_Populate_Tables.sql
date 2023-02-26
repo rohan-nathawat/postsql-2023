@@ -1,11 +1,4 @@
-﻿---------------------------------------------------
--- Sams Teach Yourself SQL in 10 Minutes
--- http://www.forta.com/books/0672325675/
--- Example table population scripts for PostgreSQL.
----------------------------------------------------
-
-
----------------------------
+﻿---------------------------
 -- Populate Customer table
 ---------------------------
 INSERT INTO Customer(cust_id, cust_first_name, cust_mid_initial, cust_last_name, cust_email, is_member)
