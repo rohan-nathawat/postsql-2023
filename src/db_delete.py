@@ -1,13 +1,20 @@
 import psycopg2
+from configparser import ConfigParser
+
+
+# create a parser
+parser = ConfigParser()
+# read config file
+parser.read("creds.ini")
+pgcreds = {}
+
+if parser.has_section("pgdb"):
+    items = parser.items("pgdb")
+    for item in items:
+        pgcreds[item[0]] = item[1]
 
 try:
-    conn = psycopg2.connect(
-    host="localhost",
-    database="restaurant",
-    port=5432,
-    user="postgres",
-    password="232609"
-    )
+    conn = psycopg2.connect(**pgcreds)
     # Creates a cursor object
     cursor = conn.cursor()
     postgreSQL_delete_Query = "DELETE FROM customer where cust_id = 3"
